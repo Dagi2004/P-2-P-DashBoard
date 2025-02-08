@@ -1,50 +1,59 @@
-# React + TypeScript + Vite
+**P2P Transaction Dashboard**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Overview**
 
-Currently, two official plugins are available:
+The P2P Transaction Dashboard is a web application designed to help users track and manage peer-to-peer (P2P) transactions. It provides a user-friendly interface to view, add, and filter transactions by status (e.g., Pending, Completed, Failed). The dashboard is built using modern web technologies, including React, TypeScript, and Tailwind CSS.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Features**
+- View Transactions: Display a list of all P2P transactions in a table format.
 
-## Expanding the ESLint configuration
+- Add Transactions: Create new transactions using a modal form.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- Filter by Status: Easily filter transactions by their status (Pending, Completed, Failed).
 
-- Configure the top-level `parserOptions` property like this:
+- Responsive Design: The dashboard is fully responsive and works seamlessly on all devices.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+- Real-Time Updates: Transactions are dynamically added to the table without requiring a page refresh.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+- Detailed View: Click on a transaction to view its details (e.g., sender, receiver, amount, status, and timestamp).
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+**Technologies Used**
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+- React: A JavaScript library for building user interfaces.
+
+- TypeScript: A typed superset of JavaScript for better code quality and maintainability.
+
+- Tailwind CSS: A utility-first CSS framework for styling the application.
+
+- React Router: For handling navigation and routing within the app.
+
+**State Management**:
+
+React Hooks (useState): For managing component-level state.
+
+**Other Tools**:
+
+- Vite: A fast build tool for modern web development.
+
+- ESLint & Prettier: For code linting and formatting.
+
+
+**Contributing**
+
+Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
+
+1) Fork the repository.
+
+2) Create a new branch for your feature or bugfix.
+
+3) Commit your changes and push them to your fork.
+
+4) Submit a pull request with a detailed description of your changes.
+
+**Contact**
+
+If you have any questions or feedback, feel free to reach out:
+
+Email: dagmawimilkias@gmail.com
+
+GitHub: https://github.com/Dagi2004
