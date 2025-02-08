@@ -15,6 +15,8 @@ The P2P Transaction Dashboard is a web application designed to help users track 
 
 - Real-Time Updates: Transactions are dynamically added to the table without requiring a page refresh.
 
+- Error Handling: If a transaction is not found or if there's an issue fetching the data, an error message will be displayed on the screen.
+
 - Detailed View: Click on a transaction to view its details (e.g., sender, receiver, amount, status, and timestamp).
 
 **Technologies Used**
