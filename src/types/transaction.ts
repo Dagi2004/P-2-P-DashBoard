@@ -9,4 +9,5 @@ export interface TransactionDetail extends Transaction{
     description:string
     transactionType:"Payment" | "Transfer" | "Deposit" | "Withdrawal"
     paymentMethod: "CreditCard" | "DebitCard" | "Check" | "Cash"
+    timestamp: number
 }

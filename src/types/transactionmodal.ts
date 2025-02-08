@@ -1,5 +1,5 @@
 export interface TransactionModall{
-  
+  id:number
     senderName:string
     receiverName:string
     amount:number

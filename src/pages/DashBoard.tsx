@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import transactionsData from "../data/transactiondata.json";
 import { Transaction } from "../types/transaction";
 
+
 const Dashboard: React.FC = () => {
     const [isModalOpen, setIsModalOpen] = useState(false);
     const [transactions, setTransactions] = useState<Transaction[]>(transactionsData.transactions);
